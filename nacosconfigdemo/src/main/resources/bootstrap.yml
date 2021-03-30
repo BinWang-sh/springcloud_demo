@@ -1,0 +1,14 @@
+server:
+  port: 9101
+
+spring:
+  application:
+    name: userservice
+  cloud:
+    nacos:
+      discovery:
+        # Nacos地址
+        server-addr: http://127.0.0.1:8848
+      config:
+        # Nacos地址
+        server-addr: http://127.0.0.1:8848

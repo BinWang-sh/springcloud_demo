@@ -85,3 +85,23 @@ user-provider:
     #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule #配置规则 响应时间权重
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
 ```
+
+## (2)nacosconfigdemo
+
+读取nacos配置的内容
+
+* bootstrap.yml文件中指定配置信息
+ spring:
+  application:
+    name: userservice
+  cloud:
+    nacos:
+      discovery:
+        # Nacos地址
+        server-addr: http://127.0.0.1:8848
+      config:
+        # Nacos地址
+        server-addr: http://127.0.0.1:8848
+
+在nacos中根据spring.application.name-env.properties取得配置信息
+

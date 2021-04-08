@@ -105,3 +105,38 @@ user-provider:
 
 在nacos中根据spring.application.name-env.properties取得配置信息
 
+
+## (3)sentineldemo
+
+获取运行sentinel dashboard
+* 从 https://codeload.github.com/alibaba/Sentinel/zip/1.7.2 下载
+
+* mvn clean package
+
+* java -Dserver.port=8888 -Dcsp.sentinel.dashboard.server=localhost:8888 -Dproject.name=sentinel-dashboard -jar ./sentinel-dashboard/target/sentinel-dashboard.jar
+
+* 在nacos添加限流策略，具体内容如下
+Data ID: sentineldemo-flow-rules
+Group: DEFAULT_GROUP
+Json
+
+```[
+  {
+    "resource": "getName-resource",
+    "controlBehavior": 0,
+    "count": 1,
+    "grade": 1,
+    "limitApp": "default",
+    "strategy": 0
+  },
+  {
+    "resource": "sayHello-resource",
+    "controlBehavior": 0,
+    "count": 1,
+    "grade": 1,
+    "limitApp": "default",
+    "strategy": 0
+  }
+]
+```
+快速访问 http://localhost:8400/hello/xxx 会出现 “请求被限流,触发限流规则=sayHello-resource” 提示。（规则设定1秒访问1次）

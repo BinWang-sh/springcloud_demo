@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f55c9f91-c4e0-4be9-88f1-8e31ecce0361" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/devsys/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1qnITjKOtzGeAMgOQV1ALPYYmfy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Groovy compiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gateway" />
+      <recent name="$PROJECT_DIR$/userservice2/src" />
+      <recent name="$PROJECT_DIR$/userservice2/src/main" />
+      <recent name="$PROJECT_DIR$/userservice2" />
+      <recent name="$PROJECT_DIR$/userservice/src/main" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewaydemoApplication">
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bin.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewaydemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bin.gatewaydemo.GatewaydemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserserviceproviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="userservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bin.userserviceprovider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bin.userserviceprovider.UserserviceproviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserserviceproviderApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="userservice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bin.userserviceprovider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bin.userserviceprovider.UserserviceproviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserserviceproviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="userservice-provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bin.userserviceprovider.UserserviceproviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserserviceproviderApplication (2)" />
+        <item itemvalue="Spring Boot.UserserviceproviderApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f55c9f91-c4e0-4be9-88f1-8e31ecce0361" name="Default Changelist" comment="" />
+      <created>1617708936370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617708936370</updated>
+      <workItem from="1617708938298" duration="24981000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="185" key="#Project_Structure" timestamp="1617713832230">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state x="560" y="185" key="#Project_Structure/0.23.1920.993@0.23.1920.993" timestamp="1617713832230" />
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1617875685484">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom/0.23.1920.993@0.23.1920.993" timestamp="1617875685484" />
+    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1617875685483">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.0.center/0.23.1920.993@0.23.1920.993" timestamp="1617875685483" />
+    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1617875685483">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.0.left/0.23.1920.993@0.23.1920.993" timestamp="1617875685483" />
+    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1617875685484">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.0.right/0.23.1920.993@0.23.1920.993" timestamp="1617875685484" />
+    <state width="1878" height="269" key="GridCell.Tab.1.bottom" timestamp="1617875685485">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.1.bottom/0.23.1920.993@0.23.1920.993" timestamp="1617875685485" />
+    <state width="1878" height="269" key="GridCell.Tab.1.center" timestamp="1617875685485">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.1.center/0.23.1920.993@0.23.1920.993" timestamp="1617875685485" />
+    <state width="1878" height="269" key="GridCell.Tab.1.left" timestamp="1617875685484">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.1.left/0.23.1920.993@0.23.1920.993" timestamp="1617875685484" />
+    <state width="1878" height="269" key="GridCell.Tab.1.right" timestamp="1617875685485">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="269" key="GridCell.Tab.1.right/0.23.1920.993@0.23.1920.993" timestamp="1617875685485" />
+    <state x="498" y="181" key="Maven.ArtifactSearchDialog" timestamp="1617779517390">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state x="498" y="181" key="Maven.ArtifactSearchDialog/0.23.1920.993@0.23.1920.993" timestamp="1617779517390" />
+    <state x="269" y="33" key="new project wizard" timestamp="1617851815608">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state x="269" y="33" key="new project wizard/0.23.1920.993@0.23.1920.993" timestamp="1617851815608" />
+    <state x="625" y="240" width="670" height="675" key="run.anything.popup" timestamp="1617859582417">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state x="625" y="240" width="670" height="675" key="run.anything.popup/0.23.1920.993@0.23.1920.993" timestamp="1617859582417" />
+  </component>
+</project>
